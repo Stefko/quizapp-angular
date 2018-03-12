@@ -13,8 +13,8 @@
 
 		<div ng-show="!answerMode">
 			<button ng-click="nextQuestion()" class="next-question">Next</button>
-			<span ng-show="correctAns">That is correct!</span>
-			<span ng-show="!correctAns">Sorry, that is an incorrect answer.</span>
+			<span ng-show="correctAns" class="correct">That is correct!</span>
+			<span ng-show="!correctAns" class="incorrect">Sorry, that is an incorrect answer.</span>
 		</div>
 	</div>
 

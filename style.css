@@ -34,6 +34,14 @@ button {
 	margin: 10px 0;
 }
 
+.correct {
+	color:#1ce61c;
+}
+
+.incorrect {
+	color:red;
+}
+
 .next-question {
 	margin-right: 10px;
 }
